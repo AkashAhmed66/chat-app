@@ -1,0 +1,21 @@
+node_modules
+.next
+.git
+.gitignore
+
+.env
+.env.local
+.env.development
+.env.production
+
+npm-debug.log
+
+Dockerfile*
+docker-compose*
+README.md
+
+# backend has its own image / build context
+server
+livekit
+
+coverage

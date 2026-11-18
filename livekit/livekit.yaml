@@ -1,0 +1,17 @@
+port: 7880
+
+log_level: info
+
+rtc:
+  tcp_port: 7881
+  port_range_start: 50000
+  port_range_end: 50100
+  # Set to true (or set node_ip) when other machines / the public internet must reach this server.
+  use_external_ip: false
+
+turn:
+  enabled: true
+  udp_port: 3478
+
+# API keys are supplied through the LIVEKIT_KEYS environment variable
+# (see docker-compose.yml) so they live only in .env.
